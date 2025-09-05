@@ -63,7 +63,7 @@ module "eks" {
         AmazonEKSLoad = "arn:aws:iam::aws:policy/AmazonEKSLoadBalancingPolicy"
       }
 
-      /* taints = {
+     /*  taints = {
         upgrade = {
           key = "upgrade"
           value  = "true"
